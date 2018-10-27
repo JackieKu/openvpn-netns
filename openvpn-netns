@@ -7,7 +7,7 @@ case "$1" in
     *) config_arg="--config" ;;
 esac
 
-exec sudo openvpn \
+exec openvpn \
     --ifconfig-noexec --route-noexec \
     --script-security 2 \
     --setenv NETNS "$NETNS" \
