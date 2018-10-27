@@ -14,7 +14,7 @@
 #   ...
 
 
-TMPFILE_DIR=/var/local/openvpn-netns
+TMPFILE_DIR=/run/openvpn-netns
 
 
 if [ -z "$NETNS" ]; then
